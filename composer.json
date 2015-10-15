@@ -9,7 +9,9 @@
             "email": "soullivaneuh@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.5"
+    },
     "autoload": {
         "psr-4": { "SLLH\\Knob\\": "src" }
     },
