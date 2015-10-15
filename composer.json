@@ -1,0 +1,13 @@
+{
+    "name": "sllh/php-jquery-knob",
+    "description": "PHP integration of aterrien/jQuery-Knob library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sullivan SENECHAL",
+            "email": "soullivaneuh@gmail.com"
+        }
+    ],
+    "require": {}
+}
