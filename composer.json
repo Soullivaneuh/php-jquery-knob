@@ -9,5 +9,16 @@
             "email": "soullivaneuh@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": { "SLLH\\Knob\\": "src" }
+    },
+    "autoload-dev": {
+        "psr-4": { "SLLH\\Knob\\Tests\\": "tests" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
 }
