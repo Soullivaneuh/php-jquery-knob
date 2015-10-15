@@ -6,7 +6,6 @@ php:
   - 7.0
   - hhvm
   - nightly
-  - hhvm-nightly
 
 env:
   global:
@@ -19,7 +18,6 @@ matrix:
       env: COMPOSER_FLAGS="--prefer-lowest"
   allow_failures:
     - php: nightly
-    - php: hhvm-nightly
 
 sudo: false
 
